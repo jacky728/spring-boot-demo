@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "mvn clean package spring-boot:repackge"
+                sh "mvn clean package spring-boot:repackage"
                 sh "printenv"
             }
         }
